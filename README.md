@@ -74,19 +74,20 @@ Submit the GitHub repository link: CollabDoc Repository to EduNet Foundations.
 
 
 
-Project Overview
+#Project Overview
 Name: CollabDoc
 Features:
-Real-time document editing with multiple users.
-User authentication (basic signup/login).
-Document sharing and updates synced via WebSocket (Socket.IO).
-Tech Stack:
-Frontend: React
-Backend: Node.js, ExpressJS
-Database: MongoDB
-Real-time: Socket.IO
-Submission: GitHub repository for EduNet Foundations.
-Step 1: Project Setup
+*Real-time document editing with multiple users.
+*User authentication (basic signup/login).
+*Document sharing and updates synced via WebSocket (Socket.IO).
+##Tech Stack:
+*Frontend: React
+*Backend: Node.js, ExpressJS
+*Database: MongoDB
+*Real-time: Socket.IO
+
+--> Submission: GitHub repository for EduNet Foundations.
+*Step 1: Project Setup
 Backend Setup
 Initialize the Project
 bash

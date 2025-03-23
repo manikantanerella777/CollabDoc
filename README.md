@@ -1,3 +1,79 @@
+📝 CollabDoc - Real-time Collaboration Tool
+A real-time document collaboration tool built using the MERN stack (MongoDB, ExpressJS, React, Node.js) with WebSocket integration via Socket.IO. This project is developed as part of the EduNet Foundations submission.
+
+✨ Features
+📌 Real-time document editing using WebSockets
+
+🔐 Basic authentication (signup/login)
+
+📝 Document storage in MongoDB
+
+⚡ WebSocket-powered updates via Socket.IO
+
+🎨 Responsive and user-friendly UI
+
+🚀 Getting Started
+🔹 Prerequisites
+Ensure you have the following installed:
+
+Node.js (Latest LTS Version)
+
+MongoDB (Local or Cloud Instance)
+
+Git
+
+💾 Installation
+1. Clone the Repository
+ git clone https://github.com/manikantanerella777/CollabDoc.git
+ cd CollabDoc
+2. Backend Setup
+ cd server  
+ npm install  
+ node index.js  
+Make sure MongoDB is running locally or update the database URI in .env.
+
+3. Frontend Setup
+ cd client  
+ npm install  
+ npm start  
+This will launch the React application in your browser.
+
+💪 Tech Stack
+Frontend: React
+
+Backend: Node.js, ExpressJS
+
+Database: MongoDB
+
+Real-time Communication: Socket.IO
+
+📤 Deployment
+The project can be deployed using Vercel, Netlify, or any cloud service for the frontend.
+
+The backend can be deployed using Render, Heroku, or VPS.
+
+👤 Submitted By
+Manikanta Nerella for EduNet Foundations (March 2025)
+
+📊 Contribution & Feedback
+Contributions are welcome! Feel free to fork and submit a pull request.
+
+Found a bug? Open an issue!
+
+📥 GitHub Submission Steps
+ git init  
+ git add .  
+ git commit -m "Initial commit for CollabDoc - EduNet Foundations"  
+ git branch -M main  
+ git remote add origin https://github.com/manikantanerella777/CollabDoc.git  
+ git push -u origin main  
+✅ Final Confirmation
+Ensure the app runs successfully with real-time updates.
+
+Submit the GitHub repository link: CollabDoc Repository to EduNet Foundations.
+
+
+
 Project Overview
 Name: CollabDoc
 Features:

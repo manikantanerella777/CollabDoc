@@ -74,29 +74,25 @@ Submit the GitHub repository link: CollabDoc Repository to EduNet Foundations.
 
 
 
-#Project Overview
+# Project Overview
 Name: CollabDoc
 Features:
-*Real-time document editing with multiple users.
-*User authentication (basic signup/login).
-*Document sharing and updates synced via WebSocket (Socket.IO).
+## Real-time document editing with multiple users.
+1. User authentication (basic signup/login).
+2. Document sharing and updates synced via WebSocket (Socket.IO).
 ##Tech Stack:
-*Frontend: React
-*Backend: Node.js, ExpressJS
-*Database: MongoDB
-*Real-time: Socket.IO
+1. **Frontend**: React
+2. **Backend**: Node.js, ExpressJS
+3. **Database**: MongoDB
+4. **Real-time**: Socket.IO
 
---> Submission: GitHub repository for EduNet Foundations.
-*Step 1: Project Setup
+# Submission: GitHub repository for EduNet Foundations.
+**Step 1**: Project Setup
 Backend Setup
-Initialize the Project
-bash
+1. **Initialize the Project**
+```bash
+copy
 
-Collapse
-
-Wrap
-
-Copy
 mkdir collabdoc
 cd collabdoc
 mkdir server
@@ -104,13 +100,9 @@ cd server
 npm init -y
 npm install express mongoose socket.io cors dotenv
 Backend Code (server/index.js)
-javascript
-
-Collapse
-
-Wrap
-
-Copy
+```
+2. **Backend Code (server/index.js)**
+```bash copy
 const express = require('express');
 const mongoose = require('mongoose');
 const http = require('http');
@@ -165,6 +157,7 @@ io.on('connection', (socket) => {
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+```
 Create .env
 text
 
